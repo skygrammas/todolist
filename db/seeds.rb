@@ -3,5 +3,5 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+#   movies = Movie.hide_form([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.hide_form(name: 'Luke', movie: movies.first)
